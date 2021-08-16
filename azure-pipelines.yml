@@ -50,6 +50,6 @@ steps:
   displayName: 'Publish Artifact: drop'
   condition: succeeded()
 
-- task: WhiteSource@21
+- task: WhiteSource Bolt@20
   inputs:
     cwd: '$(System.DefaultWorkingDirectory)'
